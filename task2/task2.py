@@ -12,5 +12,4 @@ def get(id):
 
 def post(data):
     r_post = requests.post(URL + POSTS, data)
-    print(r_post.json())
     return r_post
